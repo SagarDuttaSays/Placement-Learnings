@@ -1,0 +1,8 @@
+Leftmost Repeating Character is that first character from LHS whose frequency in the string is greater than 1. It does not have to be immediate next character in line.
+    Example1:
+    String input = "geeks for geeks"
+    output = 0 (g is the first Left most character with freq >1)
+    
+    Example2:
+    String input = "abbcc"
+    output = 1 (b is the first Left most character with freq >1)
