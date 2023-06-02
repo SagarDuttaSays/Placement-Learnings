@@ -1,0 +1,15 @@
+A subsequence of a string is a string which contain characters in the same sequence as in the parent string. the characters need not be immediately after one another.
+    Example 1
+    s1 = "ABCD"
+    s2 = "BD"
+    output = true
+    
+    Example 2
+    s1 = "ABCD"
+    s2 = "CA"
+    output = false
+    
+    Example 1
+    s1 = "ABCDE"
+    s2 = "AED"
+    output = false
