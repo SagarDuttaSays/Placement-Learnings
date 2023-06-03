@@ -1,0 +1,13 @@
+Pattern Searching - you are given a string and a pattern. you need the check the string for the occurence of the pattern and return the indices of occurence.
+
+Example 1:
+input
+s = "geeksforgeeks"
+p = "eks"
+output = [2, 10]
+
+Example 2:
+input
+s = "aaaaa"
+p = "aaa"
+output = [0,1,2]
