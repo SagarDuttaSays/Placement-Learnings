@@ -1,0 +1,1 @@
+Write a program to find the largest element in the given array and return its index.
