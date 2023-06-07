@@ -1,0 +1,9 @@
+Union_of_two_arrays
+
+you are given two unsorted arrays containing m and n elements respectively. Your task is to find and return the number of distinct elements in the two. If any number is repeated more than once in both the arrays or one time in one array and more than one time in the other array then consider it only once in the counter.
+
+Ex1
+input
+a1 = {15,20,5,15}
+a2 = {15,15,15,20,10}
+output = 4

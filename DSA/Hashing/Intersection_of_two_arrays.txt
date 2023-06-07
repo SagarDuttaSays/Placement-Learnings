@@ -1,0 +1,8 @@
+Intersection_of_two_arrays 
+you are given two unsorted arrays containing m and n elements respectively. Your task is to find and return the number of common elements between the two. If any number is repeated more than once in both the arrays or one time in one array and more than one time in the other array then consider it only once in the counter.
+
+Ex1
+input
+a1 = {10,3,4,2,54,3,5}
+a2 = {19, 2, 43, 3}
+output = 2
