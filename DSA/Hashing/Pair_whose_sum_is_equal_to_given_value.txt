@@ -1,0 +1,7 @@
+Write a program which finds a pair from the array whose sum is equal to the given the sum. if found return true, else return false.
+
+Ex:
+input
+nums = {4,10,7,12,-13,9,3}
+sum = 1
+output = true
