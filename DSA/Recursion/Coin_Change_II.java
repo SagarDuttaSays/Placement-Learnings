@@ -7,11 +7,11 @@ class Coin_Change_II {
 		if(store[idx][amt]!=-1)
 			return store[idx][amt];
 		int c = 0;
-		//take
+		//taking
 		if(amt-coins[idx]>=0)
 			c = c + f(idx, coins, amt-coins[idx], store);
 		
-		//not take
+		//not taking
 		c = c+ f(idx+1, coins, amt, store);
 		store[idx][amt] = c;
 		return c;
