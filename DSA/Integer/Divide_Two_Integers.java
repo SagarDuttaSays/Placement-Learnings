@@ -15,7 +15,7 @@ class Divide_Two_Integers {
             int shift = 0;
             while (longDividend >= (longDivisor << shift)) {
                 shift++;
-            }
+        }
             shift--;
             longDividend -= longDivisor << shift;
             quotient += 1 << shift;
