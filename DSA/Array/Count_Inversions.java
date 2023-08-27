@@ -8,7 +8,6 @@ public static long mergeSort(long[] arr, long[] temp, int left, int right) {
             invCount += mergeSort(arr, temp, mid + 1, right);
             invCount += merge(arr, temp, left, mid + 1, right);
         }
-
         return invCount;
     }
 
