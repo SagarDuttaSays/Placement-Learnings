@@ -21,3 +21,31 @@ Eg: 90  1
     91  4
     94  5
 Syntax: select row_number() over (order by col_name asc/desc) as 'alias' from table_name;
+
+Lead() - returns the value of next row.
+Syntax: lead() over(order by column_name asc/desc) from table_name;
+Eg: 
+Find all numbers that appear at least three times consecutively.
+# Write your MySQL query statement below
+select distinct l1.num as ConsecutiveNums
+from logs l1, logs l2, logs l3
+where 
+l1.id = l2.id+1 and
+l1.id = l3.id+2 and
+l1.num = l2.num and
+l1.num = l3.num;
+
+Lag() -returns the value of previous row.
+Syntax: lead() over(order by column_name asc/desc) from table_name;
+Eg: 
+Find all numbers that appear at least three times consecutively.
+# Write your MySQL query statement below
+select distinct l1.num as ConsecutiveNums
+from logs l1, logs l2, logs l3
+where 
+l1.id = l2.id+1 and
+l1.id = l3.id+2 and
+l1.num = l2.num and
+l1.num = l3.num;
+
+
