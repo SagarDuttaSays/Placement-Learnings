@@ -5,5 +5,6 @@ func trailingZeroes(n int) int {
         zeroes += n / divisor
         divisor *= 5
     }
+    
     return zeroes
 }
