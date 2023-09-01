@@ -1,5 +1,6 @@
 class Is_Subsequence{
     public boolean isSubsequence(String s, String t) {
+        
         if(t.length()<s.length())
             return false;
         if(s.length()==0)
