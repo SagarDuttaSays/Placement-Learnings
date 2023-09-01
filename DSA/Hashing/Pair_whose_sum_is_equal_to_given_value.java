@@ -1,6 +1,6 @@
 import java.util.*;
-public class Pair_whose_sum_is_equal_to_given_value{
-    public static boolean pair_whose_sum_is_equal_to_given_value(int[] nums, int sum){
+public class Pair_whose_sum_is_equal_to_given_value {
+    public static boolean pair_whose_sum_is_equal_to_given_value(int[] nums, int sum) {
         Set<Integer> set = new LinkedHashSet<>();
         for(int i = 0; i<nums.length; i++)
             set.add(nums[i]);
