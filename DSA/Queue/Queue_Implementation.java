@@ -24,6 +24,9 @@ class Queue_Implementation {
         q.rear--;
         return front;
     }
+    public static int peek(Queue q){
+        return q.queue[0];
+    }
     public static void main(String[] args) {
         // Write your code here
         Queue q = new Queue(5);
