@@ -10,6 +10,7 @@ class Frog_Jump {
         }
         return -1;
     }
+    
     public boolean f(int index, int k, int[] stones, Map<String, Boolean> map){
         if(index==stones.length-1)
             return true;
