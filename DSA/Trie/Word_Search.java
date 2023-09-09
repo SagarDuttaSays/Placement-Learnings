@@ -10,6 +10,7 @@ class Word_Search {
     }
     
     public static void insert(String word, Node root) {
+        
         Node curr = root;
         for (int i = 0; i < word.length(); i++) {
             int idx = word.charAt(i) - 'a';
