@@ -9,6 +9,7 @@
  *         next = null;
  *     }
  * }
+ 
  */
 public class Linked_List_Cycle {
     public boolean hasCycle(ListNode head) {
