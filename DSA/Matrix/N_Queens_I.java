@@ -14,6 +14,7 @@ class N_Queens_I {
         }
         allBoards.add(list);
     }
+    
     public boolean isSafe(int row, int col, char[][] board){
         //horizontal
         for(int c = 0; c<board.length; c++)
