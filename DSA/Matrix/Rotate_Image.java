@@ -7,6 +7,7 @@ class Rotate_Image {
                 matrix[row][col] = temp;
             }
         }
+        
         for(int i = 0; i<matrix.length; i++){
             int low = 0, high = matrix.length-1;
             while(low<=high){
