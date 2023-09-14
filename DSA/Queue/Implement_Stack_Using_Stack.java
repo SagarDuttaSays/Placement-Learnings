@@ -8,6 +8,7 @@ class Queue{
         this.front = size;
     }
 }
+
 class Implement_Stack_Using_Stack {
     //push at top
     public static Queue enqueue(Queue q, int n){
