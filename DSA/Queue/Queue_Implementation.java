@@ -7,6 +7,7 @@ class Queue{
         this.size = size;
     }
 }
+
 class Queue_Implementation {
     public static Queue enqueue(Queue q, int n){
         if(q.rear==q.size-1)
