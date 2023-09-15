@@ -13,7 +13,6 @@ class Search_in_BST {
     }
 }
 /*********************************************************
-
  Following is the BinaryTreeNode structure:
 
  class BinaryTreeNode {
