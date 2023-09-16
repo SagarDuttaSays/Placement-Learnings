@@ -13,6 +13,7 @@ class Generate_Parentheses {
         if(lb>rb)
             f(n, lb, rb+1, str+")", list);
     }
+      
     public List<String> generateParenthesis(int n) {
         List<String> list = new ArrayList<>();
         f(n,0,0,"",list);
