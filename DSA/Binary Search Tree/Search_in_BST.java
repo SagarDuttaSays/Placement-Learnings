@@ -11,7 +11,7 @@ class Search_in_BST {
            return searchInBST(root.right,x);
         return false;
     }
-}
+} 
 /*********************************************************
 
  Following is the BinaryTreeNode structure:
