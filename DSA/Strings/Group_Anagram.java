@@ -1,6 +1,6 @@
 import java.util.*;
 public class Group_Anagram {
-    public List<List<String>> groupAnagrams(String[] strs){ 
+    public List<List<String>> groupAnagrams(String[] strs){
         List <List<String>> list = new ArrayList<>();
         Map<String, List<String>> map = new HashMap<>();
         for(int i = 0; i<strs.length; i++){
