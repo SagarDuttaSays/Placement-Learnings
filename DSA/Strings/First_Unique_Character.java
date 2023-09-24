@@ -1,5 +1,5 @@
 class First_Unique_Character {
-    public int firstUniqChar(String s) {
+    public int firstUniqChar(String s) { 
         Map<Character, Integer> map = new LinkedHashMap<>();
         char unique = ' ';
         for(int i = 0; i<s.length(); i++){
