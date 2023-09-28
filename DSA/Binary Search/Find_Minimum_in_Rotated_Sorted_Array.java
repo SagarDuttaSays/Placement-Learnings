@@ -1,6 +1,5 @@
 class Find_Minimum_in_Rotated_Sorted_Array {
     public int findMin(int[] nums) {
-
         int min = Integer.MAX_VALUE;
         int left = 0, right = nums.length-1;
         while(left<=right){
