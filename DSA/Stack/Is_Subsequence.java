@@ -1,4 +1,4 @@
-class Is_Subsequence{ 
+class Is_Subsequence{
     public boolean isSubsequence(String s, String t) {
         
         if(t.length()<s.length())
