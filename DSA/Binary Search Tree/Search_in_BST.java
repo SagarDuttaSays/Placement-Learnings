@@ -1,4 +1,4 @@
-class Search_in_BST {  
+class Search_in_BST {
      public static boolean searchInBST(BinaryTreeNode root, int x) {
         // Write your code here. 
         if(root==null)
