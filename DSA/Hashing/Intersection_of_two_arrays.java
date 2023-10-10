@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.*; 
 public class Intersection_of_two_arrays{
     public static int intersection_of_two_arrays(int[] num1, int[] num2){
         Set<Integer> set = new LinkedHashSet<>();
