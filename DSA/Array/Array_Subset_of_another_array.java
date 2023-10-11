@@ -1,4 +1,4 @@
-class Array_Subset_of_another_array { 
+class Array_Subset_of_another_array {  
       public static boolean checkSubset(int[] arr1, int[] arr2, int n, int m) {  
         // Write your code here.
         Arrays.sort(arr1);
